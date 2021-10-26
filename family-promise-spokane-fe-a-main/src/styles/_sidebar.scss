@@ -1,0 +1,15 @@
+#sider {
+  margin-top: 60px;
+  position: fixed;
+  min-height: 100vh;
+  z-index: 3;
+}
+
+.ant-menu-item:hover {
+  background-color: #e6faff;
+  transition: none;
+}
+
+.ant-menu-item-selected {
+  font-weight: bold;
+}

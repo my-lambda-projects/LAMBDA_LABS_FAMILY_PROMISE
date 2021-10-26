@@ -1,0 +1,27 @@
+.shelter-info-padding {
+  margin-left: 80px;
+}
+.shelter-info-container {
+  margin: auto;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.shelter-info-title {
+  text-align: center;
+  margin: 2.5% 0 3% 0;
+}
+
+@media (max-width: 850px) {
+  .shelter-info-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  .shelter-info-container {
+    width: 90%;
+  }
+} ;

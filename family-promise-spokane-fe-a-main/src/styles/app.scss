@@ -1,0 +1,110 @@
+// css reset
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.okta-form-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.okta-form {
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  button {
+    width: 100%;
+  }
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+
+.container {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.notes-form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+  width: 60%;
+}
+
+.initials {
+  width: 8%;
+}
+
+// Guest Dashboard
+.guest-container {
+  margin-left: 80px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.dashboardTitle * {
+  margin: 0;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: normal;
+}
+.dashboardTitle h2 {
+  font-size: 2em;
+  line-height: normal;
+}
+.checkin-area {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.isReserved {
+  display: none;
+}
+.number-of-beds {
+  font-weight: 500;
+  color: red;
+}
+.members {
+  margin: 15%;
+  padding-bottom: 25%;
+}
+.membersContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.semiwidth {
+  width: 50%;
+}
+.printName {
+  width: 40%;
+}
+
+@import './case-notes-modal';
+@import './notes-page';
+@import './guest-notes';
+@import './flag-guest';
+@import './user-profile';
+@import './guest-table';
+@import './sidebar';
+@import './navbar';
+@import './analytics';
+@import './shelter-info';

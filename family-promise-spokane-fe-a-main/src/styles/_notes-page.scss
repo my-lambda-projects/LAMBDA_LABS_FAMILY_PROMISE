@@ -1,0 +1,20 @@
+.notes-page-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  grid-gap: 1rem;
+}
+
+.notes-page-back {
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  z-index: 2;
+}
+
+hr {
+  border: 1px solid black;
+}
